@@ -1,0 +1,54 @@
+
+ps. if the code doesn't run on vs code please use an online compiler as it requires the latest version of c++
+Dungeon escape:
+Welcome to Dungeon Escape! In this thrilling adventure game, you must navigate through a dangerous dungeon, overcome challenges, defeat enemies, and collect treasures to survive and escape. Your health and moves are limited, so choose your actions wisely!
+At the start of the game, please enter your name and instructions will be displayed on the screen
+Game Mechanics:
+-Health: Starts at 100 and decreases when fighting enemies or failing challenges.
+Collecting health potions restores +50 health.
+
+-Moves: You start with 10 moves. Moves decrease when:
+1.Entering/exiting a room
+2.Collecting treasure
+3.Combat with an enemy
+
+-Inventory: Stores collected treasures (coins, health potions, armor).
+zero at start
+
+-Rooms: There are five rooms: Base, Bronze, Platinum, Silver, and Gold. Each has a unique challenge and enemy.
+When you enter a room, you will see:
+The room’s name.
+The enemy’s name and description.
+The room’s challenge.
+
+-Enemies: Each room contains a stronger enemy. 
+To defeat an enemy, your health must be greater than or equal to the enemy’s required health.
+If you win, you gain 10 coins and collect the treasure.
+If you lose, your health decreases by 10.
+
+-Treasure: Each room has a treasure box containing two random items and a key to the next room.
+
+User Choices: you are required to type it in the terminal
+1.Fight the enemy, collect treasure, and get the key.
+2.Just take the key and move to the next room.
+3.Take on the room’s challenge before proceeding.
+
+End Game Conditions:
+1.Health drops below 10.
+2.Moves reach 0.
+3.Successfully escape the dungeon by reaching the final room(win)
+4.Choose to exit the game (option displayed upon entering each room).
+
+Game Rankings:
+After the game ends, the ranking screen displays:
+-Player name
+-Number of enemies defeated
+-Total coins collected
+-Number and names of rooms explored
+-Remaining health
+-"Play Again" option
+
+Tips:
+-Manage your moves carefully.
+-Fight enemies only if your health is sufficient.
+-Complete challenges to gain an advantage.
